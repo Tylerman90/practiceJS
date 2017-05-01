@@ -12,7 +12,7 @@ for (var i = 4; i <= 23; i = i + 1) {
 }
 
 //running for loops over arrays//
-var names = ["Tyler", "Karla", "Whitney", "Preston", "Raiden", "Colin"];
+var names = ["Tyler", "Karla", "Whitney", "Preston", "Raiden", "Colin", "Erin" ];
 
 for (i = 0; i < names.length; i++) {
 	console.log("I know someone called " + names[i]);
