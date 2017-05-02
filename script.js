@@ -70,3 +70,16 @@ var loop = function(){
 };
 
 loop();
+
+//another while loop//
+//Remember to make your condition true outside the loop!
+karla = true;
+
+var soloLoop = function(){
+    while(karla) {
+  console.log("Looped once!");
+  karla = false;
+    }
+};
+
+soloLoop();
