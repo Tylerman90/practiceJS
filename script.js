@@ -56,3 +56,17 @@ while(bool){
     console.log("Less is more!");
     bool = false;
 }
+
+
+//my first for loop//
+//Remember to set your condition outside the loop!
+count = 0;
+
+var loop = function(){
+    while(count < 3) {
+        console.log("I'm looping!");
+        count++;
+    }
+};
+
+loop();
