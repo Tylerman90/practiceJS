@@ -37,3 +37,22 @@ for (i = 0; i < text.length; i++) {
         console.log(hits);
     }
 }
+
+
+
+//an ok way to write the following code//
+var bool = true;
+
+while(bool === true){
+    console.log("Less is more!");
+    bool = false;
+}
+
+//the cleaner JS way to write this would be//
+
+var bool = true;
+
+while(bool){
+    console.log("Less is more!");
+    bool = false;
+}
