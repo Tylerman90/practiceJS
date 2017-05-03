@@ -106,3 +106,23 @@ var getToDaChoppa = function () {
 };
 
 getToDaChoppa();
+
+
+
+//the three classic loops//
+
+for (i = 0; i < 10; i++) {
+    console.log("this is number " + i + " in the for loop");
+}
+
+var karla = true;
+
+while (karla) {
+    console.log ("I love you!");
+    karla = false;
+}
+
+var karla = false;
+do {
+    console.log("no more loops, because my loop condition is now " + karla);
+} while (karla);
