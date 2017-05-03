@@ -95,3 +95,14 @@ var superloop = function () {
         console.log("and a while loop 1 time...");
     }
 };
+
+//do/while loops will run until they are false//
+arnold = false;
+
+var getToDaChoppa = function () {
+    do {
+        console.log("get to the choppa!!!");
+    } while (arnold);
+};
+
+getToDaChoppa();
