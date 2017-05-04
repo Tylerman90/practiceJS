@@ -84,7 +84,7 @@ var soloLoop = function(){
 
 soloLoop();
 
-//a for and while loop//
+//this is a for and while loop//
 for(i = 0; i < 10; i++) {
     console.log("Look... a for loop!.. 10 times");
 }
