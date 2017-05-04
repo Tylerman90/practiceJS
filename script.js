@@ -109,7 +109,7 @@ getToDaChoppa();
 
 
 
-//the three classic loops//
+//three classic loops//
 
 for (i = 0; i < 10; i++) {
     console.log("this is number " + i + " in the for loop");
