@@ -96,7 +96,7 @@ var superloop = function () {
     }
 };
 
-//do/while loops will run until they are false//
+// do/while loops will run until they are false //
 arnold = false;
 
 var getToDaChoppa = function () {
