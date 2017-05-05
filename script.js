@@ -86,7 +86,7 @@ soloLoop();
 
 //this is a for and while loop//
 for(i = 0; i < 10; i++) {
-    console.log("Look... a for loop!.. 10 times");
+    console.log("Look... a for-loop!.. 10 times");
 }
 
 understand = true;
