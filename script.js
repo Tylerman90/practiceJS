@@ -126,3 +126,6 @@ var karla = false;
 do {
     console.log("no more loops, because my loop condition is now " + karla);
 } while (karla);
+
+
+//more practice//
