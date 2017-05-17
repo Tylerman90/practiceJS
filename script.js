@@ -192,3 +192,20 @@ switch(answer) {
     default:
     console.log("That's not even worth playing");
 }
+
+//animal prompter//
+var pet = prompt("What's your favorite type of pet animal?");
+
+switch(pet) {
+    case 'cat':
+        console.log("Nice choice. Cats ban be very relaxing animals");
+        break;
+    case 'dog':
+        console.log("Dogs are so much fun!");
+        break;
+    case 'fish':
+        console.log("give the poor fish a break");
+        break;
+    default:
+        console.log("That pet is not even worth owning");
+}
