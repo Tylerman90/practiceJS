@@ -178,3 +178,17 @@ switch(color) {
   default:
     console.log("I don't think that's a primary color!");
 }
+
+//snes prompter//
+var answer = prompt("What is you favorite SNES game?");
+
+switch(answer) {
+  case 'Super Mario World':
+    console.log("That's one of my favorites");
+        break;
+  case 'Super Metroid':
+    console.log("Metroidvania bro!!!!");
+        break;
+    default:
+    console.log("That's not even worth playing");
+}
