@@ -209,3 +209,15 @@ switch(pet) {
     default:
         console.log("That pet is not even worth owning");
 }
+
+//practicing if, and, and or//
+var hungry = true;
+var foodHere = true;
+
+var eat = function() {
+  if (hungry && foodHere) {
+  return true;
+} else {
+    return false;
+}
+};
