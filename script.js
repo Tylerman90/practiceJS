@@ -137,3 +137,7 @@ var isEven = function(number) {
         return false;
     }
 };
+
+for (i = 0; i < 10; i++) {
+    console.log("all work no play makes tyler a dull boy");
+}
