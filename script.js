@@ -210,7 +210,7 @@ switch(pet) {
         console.log("That pet is not even worth owning");
 }
 
-//practicing if, and, and or//
+//practicing if, and, or//
 var hungry = true;
 var foodHere = true;
 
