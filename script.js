@@ -167,7 +167,7 @@ var color = prompt("What's your favorite primary color?","Type your favorite col
 
 switch(color) {
   case 'red':
-    console.log("Red's a good color!");
+    console.log("Red is a good color!");
     break;
   case 'blue':
     console.log("That's my favorite color, too!");
