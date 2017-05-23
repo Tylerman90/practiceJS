@@ -234,3 +234,15 @@ var nap = function() {
       return false;
   }
 };
+
+//not syntax//
+var programming = false;
+
+
+var happy = function() {
+  if (programming === false) {
+      return !false;
+  } else {
+      return !true;
+  }
+};
