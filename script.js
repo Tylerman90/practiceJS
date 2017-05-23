@@ -180,7 +180,7 @@ switch(color) {
 }
 
 //snes prompter//
-var answer = prompt("What is you favorite SNES game?");
+var answer = prompt("What is your favorite SNES game?");
 
 switch(answer) {
   case 'Super Mario World':
