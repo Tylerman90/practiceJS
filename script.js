@@ -221,3 +221,16 @@ var eat = function() {
     return false;
 }
 };
+
+//or statements//
+var tired = true;
+var bored = false;
+
+
+var nap = function() {
+  if (tired || bored === true) {
+      return true;
+  } else {
+      return false;
+  }
+};
