@@ -138,7 +138,7 @@ var isEven = function(number) {
 };
 
 for (i = 0; i < 10; i++) {
-    console.log("all work no play makes tyler a dull boy");
+    console.log("all work no play makes jack a dull boy");
 }
 
 //switch statements//
