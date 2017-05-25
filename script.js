@@ -245,3 +245,10 @@ var happy = function() {
       return !true;
   }
 };
+
+//a game//
+var troll = prompt("You're walking through the forest, minding your own business, and you run into a troll! Do you FIGHT him, PAY him, or RUN?").toUpperCase();
+
+switch(troll) {
+  case 'FIGHT':
+    var strong = prompt("How courageous! Are you strong (YES or NO)?").toUpperCase();
