@@ -252,3 +252,6 @@ var troll = prompt("You're walking through the forest, minding your own business
 switch(troll) {
   case 'FIGHT':
     var strong = prompt("How courageous! Are you strong (YES or NO)?").toUpperCase();
+    var smart = prompt("Are you smart?").toUpperCase();
+    if(strong === 'YES' || smart === 'YES') {
+      console.log("You only need one of the two! You beat the troll--nice work!");
