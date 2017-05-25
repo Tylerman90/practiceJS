@@ -261,3 +261,10 @@ switch(troll) {
     break;
   case 'PAY':
     var money = prompt("All right, we'll pay the troll. Do you have any money (YES or NO)?").toUpperCase();
+    var dollars = prompt("Is your money in Troll Dollars?").toUpperCase();
+    if(money === 'YES' && dollars === 'YES') {
+      console.log("Great! You pay the troll and continue on your merry way.");
+    } else {
+      console.log("Dang! This troll only takes Troll Dollars. You get whomped!");
+    }
+    break;
