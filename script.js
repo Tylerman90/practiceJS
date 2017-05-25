@@ -6,7 +6,7 @@ console.log("3");
 console.log("4");
 
 //write something like this instead//
-for (var i = 4; i <= 23; i = i + 1) {
+for (var i = 4; i <= 20; i = i + 1) {
 	console.log(i);
 }
 
