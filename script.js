@@ -39,7 +39,7 @@ for (i = 0; i < text.length; i++) {
 
 
 
-//an ok way to write the following code//
+// ok way to write the following code//
 var bool = true;
 
 while(bool === true){
