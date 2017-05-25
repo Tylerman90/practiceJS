@@ -255,3 +255,9 @@ switch(troll) {
     var smart = prompt("Are you smart?").toUpperCase();
     if(strong === 'YES' || smart === 'YES') {
       console.log("You only need one of the two! You beat the troll--nice work!");
+      } else {
+      console.log("You're not strong OR smart? Well, if you were smarter, you probably wouldn't have tried to fight a troll. You lose!");
+    }
+    break;
+  case 'PAY':
+    var money = prompt("All right, we'll pay the troll. Do you have any money (YES or NO)?").toUpperCase();
